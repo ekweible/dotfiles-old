@@ -1,4 +1,4 @@
-dotfiles
-========
+Evan Weible's Dotfiles
+======================
 
-Evan Weible's dotfiles for configuration.
+> Dotfiles and configuration files for zsh, git, and eventually more.
