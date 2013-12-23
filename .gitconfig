@@ -1,29 +1,23 @@
 [user]
-	name = Evan.Weible
-	email = evan.weible@webfilings.com
+        name = Evan.Weible
+        email = ekweible@gmail.com
 [core]
-	excludesfile = /Users/evanweible/.gitignore_global
-[difftool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
-	trustExitCode = true
+        excludesfile = /Users/evanweible/.gitignore_global
 [color]
-	ui = true
+        ui = true
 [diff]
-	tool = p4mergetool
+        tool = p4mergetool
 [difftool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+        cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
 [merge]
-	tool = p4mergetool
+        tool = p4mergetool
 [mergetool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
-	trustExitCode = false
+        cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+        trustExitCode = false
 [mergetool]
-	keepBackup = true
+        keepBackup = true
 [alias]
-	co = checkout
-	st = status
-	br = branch
+        co = checkout
+        st = status
+        br = branch
 
